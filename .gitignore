@@ -1,0 +1,14 @@
+# Ignore specific files in main/Modules directory
+/main/Modules/snapshot.json
+/main/Modules/tinytuya.json
+/main/Modules/devices.json
+/main/Modules/tuya-raw.json
+/documentation/Notes.txt
+
+# Ignore all files in main/bat_triggers directory
+/main/bat_triggers/*
+/config/setup_scripts/*
+
+# Ignore windows shortcuts and compiled python
+*.lnk
+*.pyc
