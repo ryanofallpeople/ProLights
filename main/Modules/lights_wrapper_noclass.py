@@ -89,4 +89,4 @@ def set_light(net_name, rgb, brightness_val):
     # Execute the rest of the function if inputs are valid
     lights[net_name].set_value(20, True)
     lights[net_name].set_colour(rgb[0], rgb[1], rgb[2], nowait=True)
-    lights[net_name].set_brightness_percentage(brightness=brightness_val, nowait)
+    lights[net_name].set_brightness_percentage(brightness=brightness_val, nowait=True)
